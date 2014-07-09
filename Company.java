@@ -31,6 +31,7 @@ public class Company {
       Scanner s = null;
       try {
          companies = new ArrayList<Company>();
+         //Enter absolute path of the file
          File f = new File("Absolute_path\\Test.csv");
          s = new Scanner(new FileInputStream(f));
          String[] headers = readLine(s);
